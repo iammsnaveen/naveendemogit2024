@@ -1,1 +1,230 @@
+
 HelloWorld!!!
+Ad one more line
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git add .
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit "adding firstfile"
+error: pathspec 'adding firstfile' did not match any file(s) known to git
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m "adding firstfile"
+[main 9a12c88] adding firstfile
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file-a.txt
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/iammsnaveen/naveendemogit2024.git
+   273a40a..9a12c88  main -> main
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ ^C
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-b.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git add -A
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit "adding 2nd file"
+error: pathspec 'adding 2nd file' did not match any file(s) known to git
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push .
+Everything up-to-date
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit "adding firstfile"
+error: pathspec 'adding firstfile' did not match any file(s) known to git
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit "adding firstfile"
+error: pathspec 'adding firstfile' did not match any file(s) known to git
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+Everything up-to-date
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m "send file add"
+[main bf4fe49] send file add
+ 1 file changed, 27 insertions(+)
+ create mode 100644 file-b.txt
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 664 bytes | 664.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/iammsnaveen/naveendemogit2024.git
+   9a12c88..bf4fe49  main -> main
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file-b.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file-b.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-c.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file-b.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-c.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit "adding second file"
+error: pathspec 'adding second file' did not match any file(s) known to git
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m "adding second file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file-b.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-c.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git re
+rebase         reflog         remote         repack         replace        request-pull   reset          restore        revert
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git restore file-b.txt
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m "adding second file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file-c.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git add .
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit -m "adding second file"
+[main c0c8e4b] adding second file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 file-c.txt
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/iammsnaveen/naveendemogit2024.git
+   bf4fe49..c0c8e4b  main -> main
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file-a.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git add .
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+Everything up-to-date
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git add -A
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git push
+Everything up-to-date
+
+Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
+$ git commit
+hint: Waiting for your editor to close the file...
