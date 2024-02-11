@@ -220,6 +220,8 @@ Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
 $ git push
 Everything up-to-date
 
+
+
 Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
 $ git add -A
 
@@ -232,3 +234,6 @@ $ git commit
 hint: Waiting for your editor to close the file...
 
 addextra line @ end
+
+
+test134
