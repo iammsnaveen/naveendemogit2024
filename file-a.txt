@@ -187,6 +187,8 @@ $ git commit -m "adding second file"
  1 file changed, 2 insertions(+)
  create mode 100644 file-c.txt
 
+
+
 Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
 $ git push
 Enumerating objects: 4, done.
@@ -228,3 +230,5 @@ Everything up-to-date
 Dell@NTR MINGW64 /c/Users/Public/Git/naveendemogit2024 (main)
 $ git commit
 hint: Waiting for your editor to close the file...
+
+addextra line @ end
